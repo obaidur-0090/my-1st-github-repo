@@ -1,0 +1,33 @@
+.box{
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 163, 1);
+    border: 2px solid color( rgb(250, 163, 1));
+    padding: 5px ;
+    width: 31%;
+    align-items: center;
+    box-shadow: 10px 20px 30px ;
+    margin: 20px 0px 20px 10px  ;
+    display: inline-block;
+    vertical-align: top ;
+    border-radius: 10px;
+    
+
+}
+.heading_h1{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+}
+.heading_h3{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 15%;
+    align-items: center;
+    border-radius: 10px;
+    
+  
+}
