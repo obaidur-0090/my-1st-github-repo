@@ -1,0 +1,80 @@
+.top_ber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    background-color: rgba(255, 0, 0, 0.841);
+
+    /* background-color: #f2f2f2; */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+
+.nav_links {
+    display: flex;
+    gap: 50px;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.link a:hover {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.welcome {
+    color: red;
+}
+
+.burger {
+    padding-top: 90px;
+    filter: drop-shadow( 20px 20px 10px );
+}
+
+.h1_burger {
+    display: flex;
+    justify-content: space-between;
+}
+.Search_ber {
+    padding-left: 150px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.Search_ber input[type="search"] {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-right: none; 
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.Search_ber button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    border-left: none; 
+    border-radius: 0 8px 8px 0; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Search_ber button:hover {
+    background-color: rgb(255, 255, 255);
+}
