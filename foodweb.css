@@ -25,7 +25,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: bold;
-    
+
 }
 
 .link a:hover {
@@ -40,13 +40,14 @@
 
 .burger {
     padding-top: 90px;
-    filter: drop-shadow( 20px 20px 10px );
+    filter: drop-shadow(20px 20px 10px);
 }
 
 .h1_burger {
     display: flex;
     justify-content: space-between;
 }
+
 .Search_ber {
     padding-left: 150px;
     margin-top: 50px;
@@ -58,7 +59,7 @@
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid #000000;
-    border-right: none; 
+    border-right: none;
     border-radius: 8px 0 0 8px;
     outline: none;
 }
@@ -69,12 +70,37 @@
     background-color: red;
     color: rgb(0, 0, 0);
     border: 2px solid #000000;
-    border-left: none; 
-    border-radius: 0 8px 8px 0; 
+    border-left: none;
+    border-radius: 0 8px 8px 0;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .Search_ber button:hover {
     background-color: rgb(255, 255, 255);
+}
+
+.video {
+    
+    justify-content:space-between;
+    display: flex;
+    
+    padding-right: 20px ;
+    padding-top: 10px ;
+
+}
+.video p {
+    width: 60%;
+    text-align: justify;
+}
+.video h1{
+    flex-direction: row;
+    display: flex;
+}
+.h1_tag{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    border-bottom: 2px solid red;
 }
