@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(254, 244, 222);
+}
+.singup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.singup section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    background-color: rgb(255, 79, 79);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+
+}
+
+.singup h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size:xx-large;
+}
+
+.singup input,button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.singup button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}

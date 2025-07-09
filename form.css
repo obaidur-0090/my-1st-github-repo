@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(254, 244, 222);
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header li,a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+
+.header a:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-shadow: 0px 0px 10px ;
+
+}
+
+.header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form input:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.fieldset {
+    
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    gap: 50px;
+    
+}
+.option label{
+    cursor: pointer;
+}
+
+
+.table {
+    border: 1px solid black;
+    width: 400px;
+
+
+}
+
+.table tbody {
+    background-color: red;
+}
+
+.table th {
+    background-color: rgb(255, 133, 133);
+
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+}
